@@ -1,6 +1,6 @@
 
 
-
+/*
 const boton = document.querySelector('#boton');
 boton.addEventListener('click', mensaje);
 
@@ -19,4 +19,14 @@ boton.addEventListener("click", () => {
 function mostrarMensaje(mensaje) {
   console.log(mensaje);
 }
+*/
+//acceder a elementos por id boton//
+
+/*
+const boton = document.getElementById("boton");
+console.log(boton);
+*/
+
+//añadir una clase al id boton//
+boton.classList.add("color");
 
