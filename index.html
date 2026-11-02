@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    //link para enlazar html con hoja de estilo css//
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
+        //trato de hacer una caja para meter imagenes aleatorias//
         <div>caja de encabezado</div>
+        //esto es el encabezado//
         <h1>Práctica Filtro</h1>
     </header>
+    //el encabezado del body//
     <h2>FOTOS</h2>
+    //trato de crear los botones dando id y clase a cada uno//
     <div id="boton" class="uno">caja1</div>
     <button>caja1</button>
     <div id="boton" class="dos">caja2</div>
@@ -24,10 +29,35 @@
     <button>caja4</button>
     <div id="boton" class="cinco">caja5</div>
     <button>caja5</button>
+    //script para enlazar html con archivo js//
     <script src="js/main.js"></script>
+    //aquí creo una sección para colocar las fotos de cada viaje//
     <section>
+        //encabezado del body//
         <h2>IMAGENES RELACIONADAS</h2>
-         <img src="assets/viajes-1.jpg" alt="Primer viaje" width="500" height="300" title="playa">
+        //creo una caja//
+        <div>
+            //dentro hago una lista con enlaces a la foto
+            <ol>
+                <li>
+                    <link src=assets/viajes-1.jpg>viaje 1
+                </li>
+                <li>
+                    <link src=assets/viajes-2.jpg>viaje 2
+                </li>
+                <li>
+                    <link src=assets/viajes-1.jpg>viaje 3
+                </li>
+                <li>
+                    <link src=assets/viajes-1.jpg>viaje 4
+                </li>
+                <li>
+                    <link src=assets/viajes-1.jpg>viaje 5
+                </li>
+
+            </ol>
+        </div>
+        <img src="assets/viajes-1.jpg" alt="Primer viaje" width="500" height="300" title="playa">
 
 
     </section>
