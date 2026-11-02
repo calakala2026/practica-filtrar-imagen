@@ -1,0 +1,40 @@
+
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+body {
+    background-color: beige;
+}
+
+
+
+@media (min-width: 768px) {
+    body {
+    background-color: brown;
+}
+
+}
+
+
+@media (min-width: 992px) {
+    body {
+    background-color: orange;
+}
+    
+}
+
+
+
+@media (min-width: 1200px) {
+    body {
+    background-color: yellow;
+}
+    
+}
+
