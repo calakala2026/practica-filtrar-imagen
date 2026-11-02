@@ -1,4 +1,5 @@
 
+//color a los encabezados//
 
 h1 {
     color: blue;
@@ -8,11 +9,15 @@ h2 {
     color: red;
 }
 
+
+//color de fondo al body//
+
+
 body {
     background-color: beige;
 }
 
-
+//responsive//
 
 @media (min-width: 768px) {
     body {
