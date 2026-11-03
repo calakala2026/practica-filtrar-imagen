@@ -28,5 +28,5 @@ console.log(boton);
 */
 
 //añadir una clase al id boton//
-boton.classList.add("color");
+//boton.classList.add("color");
 
